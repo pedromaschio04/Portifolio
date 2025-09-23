@@ -37,8 +37,13 @@ body{
     list-style: none;
 }
 
+.painel__topo__lista__item:hover{
+    color: #5727db;
+    font-weight: bold;
+}
+
 .corpo__principal{
-    margin: 0px 10% 0px 10%;
+    margin: 100px 160px 40px 160px;
     background-color: #151b23;
     border: rgba(122, 122, 122, 0.342) solid 0.5px;
     border-radius: 10px;
@@ -51,7 +56,6 @@ body{
     align-items: center;
     text-align: center;
     padding: 10px;
-    margin-top: 4%;
 }
 
 .secao__sobre__paragrafo{
@@ -60,12 +64,92 @@ body{
 }
 
 .secao__sobre__paragrafo, .secao__sobre__titulo{
-    color: #05FC26;
+    color: #2948d1;
+}
+
+.secao__sobre__subtitulo{
+    color: #8bfc21;
+    text-decoration: dotted;
+    background-color: #0c1014;
+    border-radius: 10px;
+    padding: 10px;
 }
 
 strong{
-    color: #FC0546;
+    color: #FC218B;
+    font-weight: bold;
 }
+
+.redirecionar__email__container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.redirecionar__email__button{
+    background-color: #c51c10;
+    border: rgba(122, 122, 122, 0.342) solid 0.5px;
+    border-radius: 5px;
+    padding: 2px;
+    margin-left: 10px;
+}
+
+.redirecionar__email__button:hover{
+    background-color: #b61a0e;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.projetos__cortainer{
+    margin-top: 2%;
+    padding: 2%;
+}
+
 .rodape{
-    background-color: pink;
+  background-color: #010409;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer__container{
+    margin: 0px 160px 0px 160px;
+    padding: 20px;
+}
+
+.footer__contatos__itens{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+
+
+.contatos__footer__item{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    padding: 5px;
+}
+
+.contatos__footer__item__icone{
+    width: 30px;
+    padding-right: 10px;
+}
+
+.footer__container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.footer__tecnologias__itens{
+    padding: 10px;
+     display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
 }

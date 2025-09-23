@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Portifólio | Pedro H. P. Maschio</title>
+    <title> 💻 Portifólio | Pedro H. P. Maschio</title>
 </head>
+
 <body>
     <header class="painel__topo">
         <nav>
             <ul class="painel__topo__lista">
                 <li class="painel__topo__lista__item"> <a href="#topo__da__pagina">Sobre</a></li>
                 <li class="painel__topo__lista__item"><a href="#secao__sobre">Projetos</a></li>
-                <li class="painel__topo__lista__item">Contato</li>
+                <li class="painel__topo__lista__item"><a href="#footer__contatos__titulo">Contatos</a></li>
             </ul>
         </nav>
     </header>
@@ -20,15 +22,27 @@
     <main class="corpo__principal">
         <section id="secao__sobre" class="secao__sobre">
             <h1 id="sobre__titulo" class="secao__sobre__titulo">Pedro H. de Paula Maschio 💻</h1>
-            <h3>Desenvolvedor <strong>Fullstack</strong> e <strong>Freelancer</strong></h3>
-            <p class="secao__sobre__paragrafo">Olá, me chamo Pedro H. de Paula Maschio, sou formado em Análise e Desenvolvimento de sistemas pelo Instituto Federal de São Paulo, campus de Catanduva. Nos dias atuais atuo como desenvolvedor fullstack em uma empresa de controle de acesso, utilizando as ferramentas Angula, Java com Spring Boot, Android, PostgreSQL e Oracle XE. Além disso também atuo como freelancer, desenvolvendo soluções personalizadas para todas plataformas, Web, Mobile e Desktop.
+            <h3 class="secao__sobre__subtitulo">Desenvolvedor <strong>Fullstack</strong> e <strong>Freelancer</strong>
+            </h3>
+            <p class="secao__sobre__paragrafo">
+                Olá, me chamo Pedro H. de Paula Maschio, sou formado em Análise e Desenvolvimento de sistemas pelo
+                Instituto Federal de São Paulo, campus de Catanduva. Nos dias atuais atuo como desenvolvedor fullstack
+                em uma empresa de controle de acesso, utilizando as ferramentas Angular, Java com Spring Boot, Android,
+                PostgreSQL e Oracle XE. Além disso também atuo como freelancer, desenvolvendo soluções personalizadas
+                para todas plataformas, Web, Mobile e Desktop.
             </p>
+            <h3 style="margin-top: 15px;">💡 Tem alguma ideia que deseja tornar realidade?</h3>
+            <div class="redirecionar__email__container">
+                <p> Entre em contato! </p><button class="redirecionar__email__button"> <a
+                        href="mailto:pedro@pedrohpmaschio.dev" style="text-decoration: none;">E-Mail</a>
+                </button>
+            </div>
         </section>
         <br>
         <hr>
         <br>
-        <h1>Projetos 📝</h1>
-        <div class="projetos__portainer">
+        <div class="projetos__cortainer">
+            <h1> 📝 Projetos</h1>
             <section class="fotos__projetos">
                 <img src="assets/jonson.jpg" alt="">
             </section>
@@ -36,7 +50,42 @@
         </div>
     </main>
     <footer class="rodape">
-        <a href="">teste</a>
+        <div class="footer__container">
+
+            <div class="footer__contatos">
+                <p id="footer__contatos__titulo">Contatos:</p>
+                <div class="footer__contatos__itens">
+                    <span class="contatos__footer__item">
+                        <img class="contatos__footer__item__icone"
+                            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" />
+                        <a href="https://github.com/pedromaschio04">Github</a>
+                    </span>
+                    <span class="contatos__footer__item">
+                        <img class="contatos__footer__item__icone"
+                            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-original.svg" />
+                        <a href="https://www.linkedin.com/in/pedro-henrique-de-paula-maschio-571081231/">Linkedin</a>
+                    </span>
+                    <span class="contatos__footer__item">
+                        <img class="contatos__footer__item__icone"
+                            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-original.svg" />
+                        <a href="mailto:pedro@pedrohpmaschio.dev">E-Mail</a>
+                    </span>
+                </div>
+            </div>
+            <div class="footer__tecnologias">
+                <h4 class="footer__tecnologias__titulo">Tecnologias Utilizadas:</h4>
+                <div class="footer__tecnologias__itens">
+                    <img class="contatos__footer__item__icone"
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" />
+                    <img class="contatos__footer__item__icone"
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" />
+                    <img class="contatos__footer__item__icone"
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" />
+
+                </div>
+            </div>
+        </div>
     </footer>
 </body>
+
 </html>
