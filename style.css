@@ -1,6 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
 *{
     padding: 0;
     margin: 0;
@@ -13,15 +11,31 @@ body{
 }
 
 .painel__topo{
+    font-family: "Outfit", sans-serif;
     background-color: #010409;
     display: flex;
     flex-direction: row;
-    justify-content: end;
+    justify-content: space-between;
+    align-items: center;
     
     overflow: hidden;
     position: fixed; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
     width: 100%;
+    height: 70px;
+}
+
+.painel__foto__perfil{
+    width: 50px;
+    height: 50px;
+    border-radius: 200px;
+    margin: 10px 0px 10px 10px;
+    border: rgba(122, 122, 122, 0.342) solid 0.5px;
+}
+
+.painel__foto__perfil:hover{
+    border: white solid 2px;
+
 }
 
 .painel__topo__lista{
@@ -85,6 +99,8 @@ strong{
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
+    height: 20px;
+    margin-top: 10px;
 }
 
 .redirecionar__email__button{
@@ -93,12 +109,15 @@ strong{
     border-radius: 5px;
     padding: 2px;
     margin-left: 10px;
+    width: 70px;
 }
 
 .redirecionar__email__button:hover{
     background-color: #b61a0e;
     font-weight: bold;
-    padding: 5px;
+    padding: 3px;
+    border: white solid 1px;
+    cursor: pointer;
 }
 
 .projetos__cortainer{
@@ -107,6 +126,7 @@ strong{
 }
 
 .rodape{
+  font-family: "Outfit", sans-serif;
   background-color: #010409;
   display: flex;
   flex-direction: row;
@@ -135,7 +155,43 @@ strong{
 
 .contatos__footer__item__icone{
     width: 30px;
-    padding-right: 10px;
+    padding-right: 5px;
+}
+
+.secao__projetos__container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: start;
+}
+
+.secao__projetos__titulo{
+    padding: 15px
+}
+
+.fotos__projetos__imagem{
+    width: 400px;
+    width: 400px;
+}
+
+.secao__projetos__lista__item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #01040915;
+    border: rgba(255, 255, 255, 0.171) solid 0.01mm;
+    padding: 10px;
+}
+
+.secao__projetos__lista__item:hover{
+    background-color: #01040952;
+    cursor: pointer;
+}
+
+.secao__projetos__lista__item_icone{
+    padding: 5px;
+    width: 25px;
 }
 
 .footer__container{
